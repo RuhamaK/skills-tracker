@@ -16,7 +16,7 @@ public class SkillsController {
         return "<html>" +
                 "<body>" +
                 "<h1>Skills Tracker</h1>" +
-                "<h2>Here is a list of the skills</h2>" +
+                "<h2>Here is a list of the skills we would like to learn!</h2>" +
                 "<ol>" +
                 "<li>Java</li>" +
                 "<li>JavaScript</li>" +
@@ -34,6 +34,7 @@ public class SkillsController {
         return "<html>" +
                 "<body>" +
                 "<form method='post', action = '/favoriteSkills'>" +
+                "<h3>Name:</h3>"+
                 "<input name='name',type = 'text'>" +
                 "<h3>My favorite language</h3>" +
                 "<select name = 'skills1'>" +
